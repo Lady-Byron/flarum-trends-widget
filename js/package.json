@@ -1,18 +1,14 @@
 {
-  "name": "@liplum/flarum-trends-widget",
-  "private": true,
-  "version": "0.1.0",
-  "type": "module",
-  "devDependencies": {
-    "@types/jquery": "^3.5.32",
-    "flarum-tsconfig": "^1.0",
-    "flarum-webpack-config": "^2.0",
-    "typescript": "^5.7.2",
-    "webpack": "^5.97.0",
-    "webpack-cli": "^5.1.4"
-  },
-  "scripts": {
-    "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
-  }
+    "name": "@liplum/flarum-trends-widget",
+    "version": "1.0.6",
+    "private": true,
+    "dependencies": {
+        "flarum-webpack-config": "^2.0.0",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^4.0.0"
+    },
+    "scripts": {
+        "dev": "webpack --mode development --watch",
+        "build": "webpack --mode production"
+    }
 }
